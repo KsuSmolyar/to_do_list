@@ -1,0 +1,9 @@
+.tasksContainer {
+	border-radius: var(--radius_2);
+	width: 100%;
+	background-color: var(--white);
+	padding: 30px 20px;
+	margin-top: 10px;
+}
+
+

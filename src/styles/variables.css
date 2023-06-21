@@ -1,0 +1,16 @@
+:root {
+  --main_blue: #066acd;
+  --dark_blue: #061855;
+  --blue_02: #0a2ea4;
+  --blue_75: #0d75ec;
+  --blue_64: #0b64ca;
+  --white: #ffffff;
+  --smoke_white: #d1d3d4;
+  --light_gray: #939697;
+  --eggshell: #c5e1e6;
+  --black: #111111;
+
+  --radius_1: 5px;
+  --radius_2: 10px;
+}
+

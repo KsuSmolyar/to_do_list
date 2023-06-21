@@ -1,0 +1,29 @@
+.App {
+  height: 100vh;
+  padding: 10px;
+  background-color: var(--main_blue);
+}
+
+.container {
+  width: 70%;
+	margin: 0 auto;
+	max-width: 800px;
+	background: var(--white);
+	border-radius: var(--radius_2);
+	min-width: 300px;
+	min-height: 100px;
+}
+
+.mainTitle {
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+.newTask {
+  display: flex;
+	justify-content: space-between;
+	padding: 30px 20px;
+}
+
+

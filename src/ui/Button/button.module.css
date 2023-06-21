@@ -1,0 +1,37 @@
+.btn {
+	color: var(--white);
+	border-radius: var( --radius_1);
+}
+
+.primaryBtn {
+  background-color: var(--main_blue);
+  font-weight: 500;
+	font-size: 16px;
+	width: 20%;
+	padding-block: 12px;
+}
+
+.primaryBtn:hover {
+	background-color: var(--blue_64);
+}
+
+.primaryBtn:focus {
+	border: 2px solid var(--blue_02);
+}
+
+.primaryBtn:active {
+	background-color: var(--blue_02);
+	font-size: 20px;
+}
+
+.secondaryBtn {
+	background-color: var(--blue_02);
+	padding: 8px;
+	width: 40px;
+}
+
+.secondaryBtn:active {
+	background-color: var(--dark_blue);
+}
+
+

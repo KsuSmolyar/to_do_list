@@ -1,0 +1,32 @@
+.itemContainer {
+	display: flex;
+	gap: 5px;
+	border-radius: var(--radius_1);
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid var(--light_gray);
+	cursor: pointer;
+	background-color: var(--eggshell);
+	height: 50px;
+	margin-bottom: 8px;
+	padding: 5px 10px;
+}
+
+.itemCheckbox:checked ~ .itemText {
+	text-decoration: line-through;
+}
+
+.itemText {
+	width: 100%;
+	overflow-wrap: anywhere;
+}
+
+.btnDelete:active > .deleteIcon {
+	width: 25px;
+	height: 25px;
+}
+
+.deleteIcon {
+	width: 20px;
+	height: 20px;
+}
