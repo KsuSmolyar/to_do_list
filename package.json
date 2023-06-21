@@ -1,5 +1,6 @@
 {
-  "name": "to_do_list_react",
+  "name": "to_do_list",
+	"homepage": "https://KsuSmolyar.github.io/to_do_list/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
